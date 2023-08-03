@@ -8,6 +8,9 @@ def main():
         page_icon='🏙️'
     )
 
+    st.title('Transport for London line status')
+    st.markdown('TfL API Key can be obtained [here](https://api-portal.tfl.gov.uk/)')
+
     # Ask user for API key
     app_key = st.text_input("Enter your TfL API Key", type="password")
 
